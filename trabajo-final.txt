@@ -1,3 +1,7 @@
-Este es un archivo nuevo.
+Esta línea la agrego.
+
+Este es un archivo viejo.
+
+Cambio estas cosas.
 
 Este es un cambio adicional.
