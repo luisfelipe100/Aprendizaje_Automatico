@@ -8,4 +8,6 @@ Repositorio Público para la clase de Aprendizaje Automático (Mayo-Agosto 2024)
 ## Tareas
 En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SALAZAR, Matrícula: 1454937.
 
-[Tarea 1](Tareas/Tarea1.md)
+### Tarea 1
+[Tarea en clase](Tareas/Regresion_lineal.ipynb)
+[Tarea 1](Tareas/Tarea1.ipynb)
