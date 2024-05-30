@@ -17,3 +17,8 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [Tarea en clase](Tareas/Tarea2.ipynb) Cargar de datos y especificar tipo.
 
 - [Tarea 2](Tareas/Tarea2.ipynb) Modificar columnas, filtrar registros, crear subconjuntos y grupos de datos.
+
+### Tarea 3
+- [Tarea en clase](Tareas/Tarea3.ipynb) Crear funciones para calcular las medidas de tendencia central y de dispersión con Python puro (sin librerías).
+
+- [Tarea 3](Tareas/Tarea3.ipynb) Calcula estadísticos descriptivos básicos para tus datos.
