@@ -14,6 +14,6 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [Tarea 1](Tareas/Tarea1.ipynb) Definir conjunto de datos.
 
 ### Tarea 2
-- [Tarea en clase](Tareas/Regresion_lineal.ipynb) Cargar de datos y especificar tipo.
+- [Tarea en clase](Tareas/Tarea2.ipynb) Cargar de datos y especificar tipo.
 
-- [Tarea 2](Tareas/Tarea1.ipynb) Modificar columnas, filtrar registros, crear subconjuntos y grupos de datos.
+- [Tarea 2](Tareas/Tarea2.ipynb) Modificar columnas, filtrar registros, crear subconjuntos y grupos de datos.
