@@ -22,3 +22,8 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [Tarea en clase](Tareas/Tarea3.ipynb) Crear funciones para calcular las medidas de tendencia central y de dispersión con Python puro (sin librerías).
 
 - [Tarea 3](Tareas/Tarea3.ipynb) Calcula estadísticos descriptivos básicos para tus datos.
+
+### Tarea 4
+- [Tarea en clase](Tareas/Tarea4.ipynb) Aplica algún método de filtro a tus datos mediante el uso de SelectKBest.
+
+- [Tarea 4](Tareas/Tarea4.ipynb) Calcula estadísticos descriptivos básicos para tus datos.
