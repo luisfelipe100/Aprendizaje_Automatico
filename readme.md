@@ -26,4 +26,4 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 ### Tarea 4
 - [Tarea en clase](Tareas/Tarea4.ipynb) Aplica algún método de filtro a tus datos mediante el uso de SelectKBest.
 
-- [Tarea 4](Tareas/Tarea4.ipynb) Calcula estadísticos descriptivos básicos para tus datos.
+- [Tarea 4](Tareas/Tarea4.ipynb) Selección de Variables.
