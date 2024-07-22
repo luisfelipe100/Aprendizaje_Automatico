@@ -27,3 +27,12 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [Tarea en clase](Tareas/Tarea4.ipynb) Aplica algún método de filtro a tus datos mediante el uso de SelectKBest.
 
 - [Tarea 4](Tareas/Tarea4.ipynb) Selección de Variables.
+
+### Tarea 5
+- [Tarea en clase](Tareas/Tarea5.ipynb) Investigar sobre algoritmo no supervisado.
+
+- [Tarea 5](Tareas/Tarea5.ipynb) Aplicar algoritmo no supervisado.
+
+- [LaTEX](LaTEX/main.tex)
+
+- [Artículo PDF](LaTEX/Emisión_de_CO2_de_vehículos_que_circulan_en_México_en_base_a_sus_características.pdf)
