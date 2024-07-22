@@ -36,3 +36,7 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [LaTEX](LaTEX/main.tex)
 
 - [Artículo PDF](LaTEX/Emisión_de_CO2_de_vehículos_que_circulan_en_México_en_base_a_sus_características.pdf)
+
+### Tarea 6
+
+- [Tarea 6](Tareas/Tarea6.ipynb) Aplicar algoritmo supervisado.
