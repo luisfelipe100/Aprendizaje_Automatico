@@ -44,3 +44,9 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [LaTEX](LaTEX/Tarea6.tex)
 
 - [Artículo PDF](LaTEX/Tarea6.pdf)
+
+### Tarea 7
+
+- [LaTEX](LaTEX/Tarea7.tex)
+
+- [Artículo PDF](LaTEX/Tarea7.pdf)
