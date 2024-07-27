@@ -56,3 +56,9 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 - [LaTEX](LaTEX/Tarea8.tex)
 
 - [Artículo PDF](LaTEX/Tarea8.pdf)
+
+### PIA
+
+- [LaTEX](LaTEX/PIA.tex)
+
+- [Artículo PDF](LaTEX/PIA.pdf)
