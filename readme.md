@@ -33,10 +33,14 @@ En esta sección se podrá acceder a las tareas del alumno LUIS FELIPE RANGEL SA
 
 - [Tarea 5](Tareas/Tarea5.ipynb) Aplicar algoritmo no supervisado.
 
-- [LaTEX](LaTEX/main.tex)
+- [LaTEX](LaTEX/Tarea5.tex)
 
-- [Artículo PDF](LaTEX/Emisión_de_CO2_de_vehículos_que_circulan_en_México_en_base_a_sus_características.pdf)
+- [Artículo PDF](LaTEX/Tarea5.pdf)
 
 ### Tarea 6
 
 - [Tarea 6](Tareas/Tarea6.ipynb) Aplicar algoritmo supervisado.
+
+- [LaTEX](LaTEX/Tarea6.tex)
+
+- [Artículo PDF](LaTEX/Tarea6.pdf)

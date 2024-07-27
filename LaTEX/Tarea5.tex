@@ -2,6 +2,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage[spanish]{babel}
 \usepackage{booktabs}
+\usepackage{adjustbox}
 
 \title{Emisión de $CO_2$ de vehículos que circulan en México en base a sus características}
 \author{Luis Felipe Rangel Salazar}
@@ -70,6 +71,7 @@ Con esto se corre el riesgo de tener overfitting y por lo tanto la sugerencia es
 
 
 A continuación se presenta la matriz de correlaciones entre las variables.
+\newpage
 
 \begin{figure}[h]
   \centering
@@ -78,39 +80,55 @@ A continuación se presenta la matriz de correlaciones entre las variables.
   \label{fig:nombre}
 \end{figure}
 
-Como se puede ver en la figuar 1, las variables de Cilindros, Potencia y Tamaño son las que se encuentran más correlacionadas positivamente entre ellas. De igual forma, la variable Submarca tiene una correalación positiva alta con la variable respuesta $CO_2$. Las variables de Rendimiento en Ciudad y Rendimiento en Carretera son las que presentan mayor correlación negativa con la variable respuesta $CO_2$.
+Como se puede ver en la figura 1, las variables de Cilindros, Potencia y Tamaño son las que se encuentran más correlacionadas positivamente entre ellas. De igual forma, la variable Submarca tiene una correalación positiva alta con la variable respuesta $CO_2$. Las variables de Rendimiento en Ciudad y Rendimiento en Carretera son las que presentan mayor correlación negativa con la variable respuesta $CO_2$.
 
 Abajo se muestran las principales estadísticas descriptivas de cada variable.
 
-\begin{tabular}{lrrrrr}
-\toprule
- & Modelo & Cilindros & Potencia (HP) & Tamaño (L)\\
-\midrule
-Conteo & 4601.000000 & 4601.000000 & 4601.000000 & 4601.000000\\
-Media & 2014.180000 & 5.330000 & 255.290000 & 2.870000\\
-Desviación & 2.160000 & 1.800000 & 132.920000 & 1.350000\\
-Min & 2011.000000 & 3.000000 & 60.000000 & 0.900000\\
-25\% & 2012.000000 & 4.000000 & 150.000000 & 1.800000\\
-50\% & 2014.000000 & 4.000000 & 220.000000 & 2.500000\\
-75\% & 2016.000000 & 6.000000 & 330.000000 & 3.600000\\
-Max & 2018.000000 & 12.000000 & 888.000000 & 8.400000\\
-\bottomrule
-\end{tabular}
+\begin{table}[ht]
+    \begin{adjustbox}{max width=1\textwidth}
+        \begin{tabular}{lrrrrr}
+        \toprule
+         & Modelo & Cilindros & Potencia (HP) & Tamaño (L)\\
+        \midrule
+        Conteo & 4601 & 4601 & 4601 & 4601\\
+        Media & 2014.18 & 5.33 & 255.29 & 2.87\\
+        Desviación & 2.16 & 1.8 & 132.920000 & 1.350000\\
+        Min & 2011 & 3 & 60 & 0.9\\
+        25\% & 2012 & 4 & 150 & 1.8\\
+        50\% & 2014 & 4 & 220 & 2.5\\
+        75\% & 2016 & 6 & 330 & 3.6\\
+        Max & 2018 & 12 & 888 & 8.4\\
+        \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \centering
+    \caption{Estadística descriptiva 1}
+    \label{table:tablas}
+\end{table}
 
-\begin{tabular}{lrrrr}
-\toprule
- & R. Ciudad (km/l) & R. Carr. (km/l) & CO2(g/km) & Hibrido \\
-\midrule
-Conteo & 4601.000000 & 4601.000000 & 4601.000000 & 4601.000000 \\
-Media & 10.600000 & 16.600000 & 256.730000 & 0.010000 \\
-Desviación & 3.290000 & 4.190000 & 75.630000 & 0.100000 \\
-Min & 3.100000 & 6.700000 & 107.000000 & 0.000000 \\
-25\% & 8.200000 & 13.440000 & 200.000000 & 0.000000 \\
-50\% & 10.420000 & 16.390000 & 244.000000 & 0.000000 \\
-75\% & 12.820000 & 19.600000 & 299.000000 & 0.000000 \\
-Max & 27.460000 & 31.300000 & 627.000000 & 1.000000 \\
-\bottomrule
-\end{tabular}
+\begin{table}[ht]
+    \begin{adjustbox}{max width=1\textwidth}
+        \begin{tabular}{lrrrr}
+        \toprule
+         & R. Ciudad (km/l) & R. Carr. (km/l) & CO2(g/km) & Hibrido \\
+        \midrule
+        Conteo & 4601 & 4601 & 4601 & 4601 \\
+        Media & 10.6 & 16.6 & 256.73 & 0.01 \\
+        Desviación & 3.29 & 4.19 & 75.63 & 0.1 \\
+        Min & 3.1 & 6.7 & 107 & 0 \\
+        25\% & 8.2 & 13.44 & 200 & 0 \\
+        50\% & 10.42 & 16.39 & 244 & 0 \\
+        75\% & 12.82 & 19.6 & 299 & 0 \\
+        Max & 27.46 & 31.3 & 627 & 1 \\
+        \bottomrule
+        \end{tabular}
+    \end{adjustbox}
+    \centering
+    \caption{Estadística descriptiva 2}
+    \label{table:tablas}
+\end{table}
+
+\newpage
 
 \section{Preprocesamiento}
 
